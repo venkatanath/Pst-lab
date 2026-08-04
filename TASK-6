@@ -1,0 +1,26 @@
+Program 6: Function to find the largest of two numbers
+public class Largest {
+
+    int findLargest(int a, int b) {
+
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Largest obj = new Largest();
+
+        int largest = obj.findLargest(30, 45);
+
+        System.out.println("Largest = " + largest);
+    }
+}
+Output
+Largest = 45
+Explanation
+•	The method compares two numbers using the > operator.
+•	It returns the greater number.
