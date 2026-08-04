@@ -1,0 +1,24 @@
+Program 3: Function with parameters and return value
+This method returns the sum of two numbers.
+public class Addition {
+
+    // Function with return value
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    public static void main(String[] args) {
+
+        Addition obj = new Addition();
+
+        int result = obj.add(15, 25);
+
+        System.out.println("Result = " + result);
+    }
+}
+Output
+Result = 40
+Explanation
+•	The return type is int, so the method must return an integer.
+•	return a + b; sends the result back to the calling method.
+•	The returned value is stored in result.
